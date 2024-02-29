@@ -1,0 +1,559 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  FutureMC (future-mc-0.2.15.jar)
+  RLTweaker ASM (RLTweaker-1.12.2-0.5.12.jar)
+  WolfArmorCore (WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed.jar)
+  MovingWorldCore (movingworld-1.12-6.353-full.jar)
+  ItemPatchingLoader (ItemPhysic_Full_1.4.37_mc1.12.2.jar)
+  MixinLoader (Locks-1.12.2-3.0.0.jar)
+  FluidDrawersCoreMod (fluiddrawers-1.12.2-1.0.7.jar)
+  BewitchmentFMLLoadingPlugin (bewitchment-1.12.2-0.0.22.64.jar)
+  CXLibraryCore (cxlibrary-1.12.1-1.6.1.jar)
+  AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  RLMixinsPlugin (RLMixins-1.2.15.jar)
+  LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  JustEnoughIDs Extension Plugin (RoughlyEnoughIDs-2.0.8.jar)
+  SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.5.3.jar)
+  Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+  LoadingPlugin (Reskillable-1.12.2-1.13.0.jar)
+  Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.15-1.12.2.jar)
+  ReachFixPlugin (ReachFix-1.12.2-1.0.8.jar)
+  SoManyEnchantments ASM (SoManyEnchantments-0.5.5.jar)
+  ForgelinPlugin (Forgelin-1.8.4.jar)
+  RenderLibPlugin (RenderLib-1.12.2-1.2.8.jar)
+  SurgeLoadingPlugin (Surge-1.12.2-2.0.79.jar)
+  llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  FMLPlugin (configurablebeacons-1.12-1.0.0.jar)
+  CorePlugin (ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar)
+  BetterFoliageLoader (BetterFoliage-MC1.12-2.3.3.jar)
+  MixinLoader (framevoidpatch-1.0.0.jar)
+  MixinLoader (BedBreakBegone-1.0.2.jar)
+  SimpleDifficulty ASM (SimpleDifficulty-1.12.2-0.3.9.jar)
+  ParticleCullingLoadingPlugin (particleculling-1.12.2-v1.4.1.jar)
+  LoadingPlugin (ChunkAnimator-1.12.2-1.2.1.jar)
+  BlockOverlayFixPlugin (BlockOverlayFix-1.12.2-1.0.0.jar)
+  TransformLoader (DynamicSurroundings-1.12.2-3.6.2.1.jar)
+  Quark Plugin (Quark-r1.6-179.jar)
+  AssetMover (assetmover-2.5.jar)
+  EntityCullingPlugin (EntityCulling-1.12.2-6.3.1.jar)
+  MMFMLCorePlugin (MultiMine-1.12.2.jar)
+  LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  ColytraLoadingPlugin (colytra-1.12.2-1.2.0.3.jar)
+  IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  FMCore (fancymenu_forge_2.14.6_MC_1.12-1.12.2.jar)
+  Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.151.jar)
+  RBLoadingPlugin (RealBench-1.12.2-1.3.3.jar)
+  SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  KonkreteCore (konkrete_forge_1.6.1_MC_1.12-1.12.2.jar)
+  midnight (themidnight-0.3.5.jar)
+  CreativePatchingLoader (CreativeCore_v1.10.70_mc1.12.2.jar)
+  OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  MaterialTweakerPlugin (MaterialTweaker-1.1.1.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  Snow! Real Magic! (SnowRealMagic-1.12.2-0.7.1.jar)
+  Born in a Barn (Born In A Barn V1.8-1.12-1.1.jar)
+  CharmLoadingPlugin (Charm-1.12.2-1.4.1.jar)
+  WTPlugin (WaitingTime-1.0.1.jar)
+  Fluidlogged API Plugin (Fluidlogged-API-v2.2.7-mc1.12.2.jar)
+  MixinBooter (!mixinbooter-8.8.jar)
+  TNTUtilities Core (tnt_utilities-mc1.12-1.2.3.jar)
+Contact their authors BEFORE contacting forge
+
+// You're mean.
+
+Time: 2/28/24 11:36 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Bountiful (bountiful)
+Caused by: java.lang.Exception: 'bountiful/bounties.json' contains one or more invalid bounties. Invalid bounty objectives: [Pickable [Item: defiledlands:hephaestite, Amount: 1..32, Unit Worth: 50, Weight: 25, Stages: []], Pickable [Item: defiledlands:umbrium_ingot, Amount: 1..32, Unit Worth: 100, Weight: 25, Stages: []], Pickable [Item: defiledlands:scarlite, Amount: 1..32, Unit Worth: 400, Weight: 25, Stages: []], Pickable [Item: entity:defiledlands:slime_defiled, Amount: 1..5, Unit Worth: 400, Weight: 10, Stages: []], Pickable [Item: entity:defiledlands:shambler_twisted, Amount: 1..1, Unit Worth: 1000, Weight: 10, Stages: []], Pickable [Item: entity:defiledlands:shambler, Amount: 1..1, Unit Worth: 750, Weight: 10, Stages: []], Pickable [Item: entity:defiledlands:scuttler, Amount: 1..5, Unit Worth: 200, Weight: 10, Stages: []], Pickable [Item: entity:defiledlands:the_destroyer, Amount: 1..1, Unit Worth: 1500, Weight: 10, Stages: []], Pickable [Item: entity:defiledlands:the_mourner, Amount: 1..1, Unit Worth: 1500, Weight: 10, Stages: []]]
+	at ejektaflex.bountiful.proxy.CommonProxy.postInit(CommonProxy.kt:97)
+	at ejektaflex.bountiful.Bountiful.postInit(Bountiful.kt:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:754)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:336)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:535)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+No Mixin Metadata is found in the Stacktrace.
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2344084320 bytes (2235 MB) / 5032640512 bytes (4799 MB) up to 6804209664 bytes (6489 MB)
+	JVM Flags: 3 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx7300m -Xms1000m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 Optifine OptiFine_1.12.2_HD_U_G5 272 mods loaded, 272 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                           | Version              | Source                                                       | Signature                                |
+	|:----- |:-------------------------------------------- |:-------------------- |:------------------------------------------------------------ |:---------------------------------------- |
+	| LCHIJ | minecraft                                    | 1.12.2               | minecraft.jar                                                | None                                     |
+	| LCHIJ | mcp                                          | 9.42                 | minecraft.jar                                                | None                                     |
+	| LCHIJ | FML                                          | 8.0.99.99            | forge-1.12.2-14.23.5.2860.jar                                | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJ | forge                                        | 14.23.5.2860         | forge-1.12.2-14.23.5.2860.jar                                | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCHIJ | assetmover                                   | 2.5                  | minecraft.jar                                                | None                                     |
+	| LCHIJ | creativecoredummy                            | 1.0.0                | minecraft.jar                                                | None                                     |
+	| LCHIJ | itemphysic                                   | 1.4.0                | minecraft.jar                                                | None                                     |
+	| LCHIJ | ivtoolkit                                    | 1.3.3-1.12           | minecraft.jar                                                | None                                     |
+	| LCHIJ | mixinbooter                                  | 8.8                  | minecraft.jar                                                | None                                     |
+	| LCHIJ | com.elytradev.movingworld.common.asm.coremod |                      | minecraft.jar                                                | None                                     |
+	| LCHIJ | openmodscore                                 | 0.12.2               | minecraft.jar                                                | None                                     |
+	| LCHIJ | foamfixcore                                  | 7.7.4                | minecraft.jar                                                | None                                     |
+	| LCHIJ | tnt_utilities_core                           | 1.2.3                | minecraft.jar                                                | None                                     |
+	| LCHIJ | configurablebeaconscore                      | @VERSION@            | minecraft.jar                                                | None                                     |
+	| LCHIJ | techguns_core                                | 1.12.2-1.0           | minecraft.jar                                                | None                                     |
+	| LCHIJ | actuallyadditions                            | 1.12.2-r146          | ActuallyAdditions-1.12.2-r146.jar                            | None                                     |
+	| LCHIJ | forgeendertech                               | 1.12.2-4.5.6.1       | ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar                 | None                                     |
+	| LCHIJ | adhooks                                      | 1.12.2-3.3.1.0       | AdHooks-1.12.2-3.3.1.0-build.0626.jar                        | None                                     |
+	| LCHIJ | advanced-fishing                             | 1.3.3                | Advanced-Fishing-1.12.2-1.3.3.jar                            | None                                     |
+	| LCHIJ | cxlibrary                                    | 1.6.1                | cxlibrary-1.12.1-1.6.1.jar                                   | None                                     |
+	| LCHIJ | advinv                                       | 1.4.2                | advInv-1.12.1-1.4.2.jar                                      | None                                     |
+	| LCHIJ | aireducer                                    | 0.3.0                | AIReducer-1.12.2-0.3.0.jar                                   | None                                     |
+	| LCHIJ | akashictome                                  | 1.2-12               | AkashicTome-1.2-12.jar                                       | None                                     |
+	| LCHIJ | alcatrazcore                                 | 1.0.4                | alcatrazcore-1.0.4.jar                                       | 3c2d6be715971d1ed58a028cdb3fae72987fc934 |
+	| LCHIJ | craftstudioapi                               | 1.0.0                | CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar           | None                                     |
+	| LCHIJ | animania                                     | 2.0.3.28             | animania-1.12.2-base-2.0.3.28.jar                            | None                                     |
+	| LCHIJ | antiqueatlas                                 | 4.6.3                | antiqueatlas-1.12.2-4.6.3.jar                                | None                                     |
+	| LCHIJ | antiqueatlasoverlay                          | 1.2                  | antiqueatlas-1.12.2-4.6.3.jar                                | None                                     |
+	| LCHIJ | lostcities                                   | 2.0.22               | lostcities-1.12-2.0.22.jar                                   | None                                     |
+	| LCHIJ | antiquecities                                | 1.0                  | antiquecities-1.2.1.jar                                      | None                                     |
+	| LCHIJ | anvilpatch                                   | 1.1.1                | anvilpatch-1.1.1.jar                                         | None                                     |
+	| LCHIJ | aoa3                                         | 3.3.6                | AoA3-3.3.6.jar                                               | 8bddeac148843f40e0b9f69201be2f4b3071700d |
+	| LCHIJ | applecore                                    | 3.4.0                | AppleCore-mc1.12.2-3.4.0.jar                                 | None                                     |
+	| LCHIJ | crafttweaker                                 | 4.1.20               | CraftTweaker2-1.12-4.1.20.687.jar                            | None                                     |
+	| LCHIJ | mtlib                                        | 3.0.7                | MTLib-3.0.7.jar                                              | None                                     |
+	| LCHIJ | modtweaker                                   | 4.0.19               | modtweaker-4.0.20.11.jar                                     | None                                     |
+	| LCHIJ | jei                                          | 4.16.1.302           | jei_1.12.2-4.16.1.302.jar                                    | None                                     |
+	| LCHIJ | appleskin                                    | 1.0.14               | AppleSkin-mc1.12-1.0.14.jar                                  | None                                     |
+	| LCHIJ | ctm                                          | MC1.12.2-1.0.2.31    | CTM-MC1.12.2-1.0.2.31.jar                                    | None                                     |
+	| LCHIJ | appliedenergistics2                          | rv6-stable-7         | appliedenergistics2-rv6-stable-7.jar                         | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+	| LCHIJ | aquaculture                                  | 1.6.8                | Aquaculture-1.12.2-1.6.8.jar                                 | None                                     |
+	| LCHIJ | carrots                                      | 1.0.0b1              | carrotslib-mc1.12.2-1.0.0b1.jar                              | None                                     |
+	| LCHIJ | armorunder                                   | 1.0.0                | armorunder-mc1.12.2-1.0.0.jar                                | None                                     |
+	| LCHIJ | astikorcarts                                 | 1.12.2-0.1.2.8       | astikorcarts-1.12.2-0.1.2.8.jar                              | None                                     |
+	| LCHIJ | attributefix                                 | 1.0.12               | AttributeFix-Forge-1.12.2-1.0.12.jar                         | None                                     |
+	| LCHIJ | quark                                        | r1.6-179             | Quark-r1.6-179.jar                                           | None                                     |
+	| LCHIJ | autoreglib                                   | 1.3-32               | AutoRegLib-1.3-32.jar                                        | None                                     |
+	| LCHIJ | backpack                                     | 3.0.2                | backpack-3.0.2-1.12.2.jar                                    | None                                     |
+	| LCHIJ | base                                         | 3.14.0               | base-1.12.2-3.14.0.jar                                       | None                                     |
+	| LCHIJ | battletowers                                 | 1.6.5                | BattleTowers-1.12.2.jar                                      | None                                     |
+	| LCHIJ | baubles                                      | 1.5.2                | Baubles-1.12-1.5.2.jar                                       | None                                     |
+	| LCHIJ | mantle                                       | 1.12-1.3.3.55        | Mantle-1.12-1.3.3.55.jar                                     | None                                     |
+	| LCHIJ | bhc                                          | 2.0.3                | baubley-heart-canisters-1.12.2-2.0.3.jar                     | None                                     |
+	| LCHIJ | bedbreakbegone                               | 1.0.2                | BedBreakBegone-1.0.2.jar                                     | None                                     |
+	| LCHIJ | llibrary                                     | 1.7.20               | llibrary-1.7.20-1.12.2.jar                                   | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+	| LCHIJ | iceandfire                                   | 1.7.1                | iceandfire-1.7.1-1.12.2.jar                                  | None                                     |
+	| LCHIJ | inspirations                                 | 1.12.2-0.2.9         | Inspirations-1.12.2-0.2.9.jar                                | None                                     |
+	| LCHIJ | reachfix                                     | 1.0.8                | ReachFix-1.12.2-1.0.8.jar                                    | None                                     |
+	| LCHIJ | potioncore                                   | 1.9_for_1.12.2       | PotionCore-1.9_for_1.12.2.jar                                | None                                     |
+	| LCHIJ | qualitytools                                 | 1.0.7_for_1.12.2     | QualityTools-1.0.7_for_1.12.2.jar                            | None                                     |
+	| LCHIJ | bettercombatmod                              | 2.0.8                | RLCombat-1.12.2-2.0.8.jar                                    | None                                     |
+	| LCHIJ | somanyenchantments                           | 0.5.5                | SoManyEnchantments-0.5.5.jar                                 | None                                     |
+	| LCHIJ | mujmajnkraftsbettersurvival                  | 1.5.3                | better_survival-1.5.3.jar                                    | None                                     |
+	| LCHIJ | betterbuilderswands                          | 0.13.2               | BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar            | None                                     |
+	| LCHIJ | bettercaves                                  | 1.12.2               | bettercaves-1.12.2-2.0.4.jar                                 | None                                     |
+	| LCHIJ | forgelin                                     | 1.8.4                | Forgelin-1.8.4.jar                                           | None                                     |
+	| LCHIJ | betterfoliage                                | 2.3.2                | BetterFoliage-MC1.12-2.3.3.jar                               | None                                     |
+	| LCHIJ | bettermineshafts                             | 1.12.2-2.2.1         | BetterMineshaftsForge-1.12.2-2.2.1.jar                       | None                                     |
+	| LCHIJ | betternether                                 | 0.1.8.6              | betternether-0.1.8.6.jar                                     | None                                     |
+	| LCHIJ | betterquesting                               | 3.5.329              | BetterQuesting-3.5.329.jar                                   | None                                     |
+	| LCHIJ | reccomplex                                   | 1.4.8.4              | RecurrentComplex-1.4.8.4.jar                                 | None                                     |
+	| LCHIJ | dynamictrees                                 | 1.12.2-0.9.29        | DynamicTrees-1.12.2-0.9.29.jar                               | None                                     |
+	| LCHIJ | patchouli                                    | 1.0-23.6             | Patchouli-1.0-23.6.jar                                       | None                                     |
+	| LCHIJ | bewitchment                                  | 0.22.63              | bewitchment-1.12.2-0.0.22.64.jar                             | None                                     |
+	| LCHIJ | bibliocraft                                  | 2.4.6                | BiblioCraft[v2.4.6][MC1.12.2].jar                            | None                                     |
+	| LCHIJ | blockoverlayfix                              | 1.0.0                | BlockOverlayFix-1.12.2-1.0.0.jar                             | None                                     |
+	| LCHIJ | bloodmoon                                    | 1.5.3                | Bloodmoon-MC1.12.2-1.5.3.jar                                 | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHIJ | bnbgaminglib                                 | 2.17.6               | BNBGamingLib-1.12.2-2.17.6.jar                               | None                                     |
+	| LCHIJ | bountifulbaubles                             | 0.0.1                | Bountiful Baubles-1.12.2-0.1.8.jar                           | None                                     |
+	| LCHIE | bountiful                                    | 2.2.2                | Bountiful-2.2.2.jar                                          | None                                     |
+	| LCHI  | bq_msi                                       | 1.0.9                | BQ_Multiblock_Structure_Integration-1.0.9.jar                | None                                     |
+	| LCHI  | bqtweaker                                    | 1.3.5                | BQTweaker-1.3.5.jar                                          | None                                     |
+	| LCHI  | camera                                       | 1.0.10               | camera-1.0.11.jar                                            | None                                     |
+	| LCHI  | carryon                                      | 1.12.3               | carryon-1.12.2-1.12.7.23.jar                                 | None                                     |
+	| LCHI  | jeid                                         | 2.0.8                | RoughlyEnoughIDs-2.0.8.jar                                   | None                                     |
+	| LCHI  | climaticbiomesjbg                            | 2.17.6               | ClimaticBiomes-2.17.6-MC1.12.2.jar                           | None                                     |
+	| LCHI  | climaticbiomesdt                             | 1.4.0                | CB-DTCompat-1.4.0-MC1.12.2.jar                               | None                                     |
+	| LCHI  | chameleon                                    | 1.12-4.1.3           | Chameleon-1.12-4.1.3.jar                                     | None                                     |
+	| LCHI  | champions                                    | 1.12.2-1.0.11.10     | champions-1.12.2-1.0.11.10.jar                               | b33d2c8df492beff56d1bbbc92da49b8ab7345a1 |
+	| LCHI  | charm                                        | 1.4                  | Charm-1.12.2-1.4.1.jar                                       | None                                     |
+	| LCHI  | chisel                                       | MC1.12.2-1.0.2.45    | Chisel-MC1.12.2-1.0.2.45.jar                                 | None                                     |
+	| LCHI  | chiselsandbits                               | 14.33                | chiselsandbits-14.33.jar                                     | None                                     |
+	| LCHI  | chunkanimator                                | 1.12.2-1.2           | ChunkAnimator-1.12.2-1.2.1.jar                               | None                                     |
+	| LCHI  | shadowmc                                     | 3.8.0                | ShadowMC-1.12-3.8.0.jar                                      | None                                     |
+	| LCHI  | clipboard                                    | @VERSION@            | Clipboard-1.12-1.3.0.jar                                     | None                                     |
+	| LCHI  | clumps                                       | 3.1.2                | Clumps-3.1.2.jar                                             | None                                     |
+	| LCHI  | codechickenlib                               | 3.2.3.358            | CodeChickenLib-1.12.2-3.2.3.358-universal.jar                | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHI  | collective                                   | 3.0                  | collective-1.12.2-3.0.jar                                    | None                                     |
+	| LCHI  | collisiondamage                              | 1.2.2                | CollisionDamage-1.2.2.jar                                    | None                                     |
+	| LCHI  | colytra                                      | 1.2.0.3              | colytra-1.12.2-1.2.0.3.jar                                   | 5d5b8aee896a4f5ea3f3114784742662a67ad32f |
+	| LCHI  | comforts                                     | 1.4.1.3              | comforts-1.12.2-1.4.1.3.jar                                  | 2484ef4d131fdc0dca0647aa21b7b944ddb935a1 |
+	| LCHI  | cookiecore                                   | 2.0.0                | cookiecore-1.12-2.0.0.jar                                    | 4bbb70ebe391f24f7704e343108a9b21b44c1b10 |
+	| LCHI  | configurablebeacons                          | 1.0.0                | configurablebeacons-1.12-1.0.0.jar                           | 4bbb70ebe391f24f7704e343108a9b21b44c1b10 |
+	| LCHI  | contenttweaker                               | 1.12.2-4.10.0        | ContentTweaker-1.12.2-4.10.0.jar                             | None                                     |
+	| LCHI  | controlling                                  | 3.0.10               | Controlling-3.0.12.2.jar                                     | None                                     |
+	| LCHI  | coralreef                                    | 2.0                  | CoralReef-2.5-1.12.2.jar                                     | None                                     |
+	| LCHI  | cosmeticarmorreworked                        | 1.12.2-v4            | CosmeticArmorReworked-1.12.2-v4.jar                          | aaaf83332a11df02406e9f266b1b65c1306f0f76 |
+	| LCHI  | wearablebackpacks                            | 3.2.6                | WearableBackpacks-RLCraft-1.12.2-3.2.6.jar                   | None                                     |
+	| LCHI  | corpsecomplex                                | 1.0.12.0             | corpsecomplex-1.12.2-1.0.12.0.jar                            | b33d2c8df492beff56d1bbbc92da49b8ab7345a1 |
+	| LCHI  | cosmeticarmorreworked|tombmanygraves         | 1.12.2-v4            | CosmeticArmorReworked-1.12.2-v4.jar                          | aaaf83332a11df02406e9f266b1b65c1306f0f76 |
+	| LCHI  | craftablechainmail                           | 1.0                  | craftablechainmail-1.0.jar                                   | None                                     |
+	| LCHI  | ctgui                                        | 1.0.0                | CraftTweaker2-1.12-4.1.20.687.jar                            | None                                     |
+	| LCHI  | crafttweakerjei                              | 2.0.3                | CraftTweaker2-1.12-4.1.20.687.jar                            | None                                     |
+	| LCHI  | creativecore                                 | 1.10.0               | CreativeCore_v1.10.70_mc1.12.2.jar                           | None                                     |
+	| LCHI  | custommainmenu                               | 2.0.9.1              | CustomMainMenu-MC1.12.2-2.0.9.1.jar                          | None                                     |
+	| LCHI  | cyclicmagic                                  | 1.20.12              | Cyclic-1.12.2-1.20.14.jar                                    | 0e5cb559be7d03f3fc18b8cba547d663e25f28af |
+	| LCHI  | projecte                                     | 1.12.2-PE1.4.1       | ProjectE-1.12.2-PE1.4.1.jar                                  | None                                     |
+	| LCHI  | redstoneflux                                 | 2.1.1                | RedstoneFlux-1.12-2.1.1.1-universal.jar                      | None                                     |
+	| LCHI  | p455w0rdslib                                 | 2.3.161              | p455w0rdslib-1.12.2-2.3.161.jar                              | 186bc454cd122c9c2f1aa4f95611254bcc543363 |
+	| LCHI  | mousetweaks                                  | 2.10.1               | MouseTweaks-2.10.1-mc1.12.2.jar                              | None                                     |
+	| LCHI  | danknull                                     | 1.7.91               | DankNull-1.12.2-1.7.91.jar                                   | 644f38521a349310a5dae0239577dc7beebefaec |
+	| LCHI  | ptrmodellib                                  | 1.0.5                | PTRLib-1.0.5.jar                                             | None                                     |
+	| LCHI  | props                                        | 2.6.3.7              | Decocraft-2.6.3.7_1.12.2.jar                                 | None                                     |
+	| LCHI  | dimdoors                                     | 3.0.9+287            | DimensionalDoors-3.0.9-287.jar                               | None                                     |
+	| LCHI  | disenchanter                                 | 1.8                  | disenchanter[1.12]1.8.jar                                    | None                                     |
+	| LCHI  | doggytalents                                 | 1.15.1.6             | DoggyTalents-1.12.2-1.15.1.6.jar                             | None                                     |
+	| LCHI  | dldungeonsjbg                                | 1.14.12              | DoomlikeDungeons-1.14.12-MC1.12.2.jar                        | None                                     |
+	| LCHI  | sereneseasons                                | 1.2.18               | SereneSeasons-1.12.2-1.2.18-universal.jar                    | None                                     |
+	| LCHI  | orelib                                       | 3.6.0.1              | OreLib-1.12.2-3.6.0.1.jar                                    | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCHI  | dsurround                                    | 3.6.2.1              | DynamicSurroundings-1.12.2-3.6.2.1.jar                       | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCHI  | traverse                                     | 1.6.0                | Traverse-1.12.2-1.6.0-69.jar                                 | None                                     |
+	| LCHI  | dttraverse                                   | 1.12.2-2.1           | DynamicTreesTraverse-1.12.2-2.1.jar                          | None                                     |
+	| LCHI  | easy_cheats                                  | 1.0.0                | EasyCheatsStuff-1.12.2-2.5.0.jar                             | None                                     |
+	| LCHI  | elenaidodge                                  | 2.1                  | ElenaiDodge-1.12.2-2.1.jar                                   | None                                     |
+	| LCHI  | enchdesc                                     | 1.1.20               | EnchantmentDescriptions-1.12.2-1.1.20.jar                    | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHI  | enderstorage                                 | 2.4.6.137            | EnderStorage-1.12.2-2.4.6.137-universal.jar                  | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCHI  | enderutilities                               | 0.7.15               | enderutilities-1.12.2-0.7.15.jar                             | 2b03e1423915a189b8094816baa18f239d576dff |
+	| LCHI  | enhancedvisuals                              | 1.3.0                | EnhancedVisuals_v1.4.4_mc1.12.2.jar                          | None                                     |
+	| LCHI  | renderlib                                    | 1.2.8                | RenderLib-1.12.2-1.2.8.jar                                   | None                                     |
+	| LCHI  | entityculling                                | 6.3.1                | EntityCulling-1.12.2-6.3.1.jar                               | None                                     |
+	| LCHI  | expandableinventory                          | 1.4.0                | ExpandableInventory-1.12.2-1.4.0.jar                         | None                                     |
+	| LCHI  | minerva                                      | 1.0.13               | minerva-library-1.0.13.jar                                   | b851b8b7c7f4d8d0e910ff27618150ba80c026ec |
+	| LCHI  | extraalchemy                                 | 0.5.4                | extraalchemy-forge-1.12-build11-0.5.4.jar                    | b851b8b7c7f4d8d0e910ff27618150ba80c026ec |
+	| LCHI  | extrautils2                                  | 1.0                  | extrautils2-1.12-1.9.9.jar                                   | None                                     |
+	| LCHI  | familiarfauna                                | 1.0.11               | FamiliarFauna-1.12.2-1.0.11.jar                              | None                                     |
+	| LCHI  | fbp                                          | 2.4.1                | FancyBlockParticles-1.12.x-2.4.1.jar                         | None                                     |
+	| LCHI  | konkrete                                     | 1.6.1                | konkrete_forge_1.6.1_MC_1.12-1.12.2.jar                      | None                                     |
+	| LCHI  | fancymenu                                    | 2.14.6               | fancymenu_forge_2.14.6_MC_1.12-1.12.2.jar                    | None                                     |
+	| LCHI  | fantasticlib                                 | 1.12.2.047           | FantasticLib-1.12.2.047.jar                                  | None                                     |
+	| LCHI  | firstaid                                     | 1.6.22               | firstaid-1.6.22.jar                                          | 7904c4e13947c8a616c5f39b26bdeba796500722 |
+	| LCHI  | levelup2                                     | ${version}           | Level Up! 2-1.1.23-1.12.jar                                  | None                                     |
+	| LCHI  | fishingmadebetter                            | 2.2.6                | FishingMadeBetter-1.12.2-2.2.6.jar                           | None                                     |
+	| LCHI  | libnine                                      | 1.2.1                | libnine-1.12.2-1.2.1.jar                                     | None                                     |
+	| LCHI  | storagedrawers                               | 5.5.0                | StorageDrawers-1.12.2-5.5.0.jar                              | None                                     |
+	| LCHI  | fluiddrawers                                 | 1.0.7                | fluiddrawers-1.12.2-1.0.7.jar                                | None                                     |
+	| LCHI  | fluidlogged_api                              | 2.2.7                | Fluidlogged-API-v2.2.7-mc1.12.2.jar                          | None                                     |
+	| LCHI  | foamfix                                      | @VERSION@            | foamfix-0.10.15-1.12.2.jar                                   | None                                     |
+	| LCHI  | foodexpansion                                | 1.3                  | FoodExpansion1.3.3-1.12.2.jar                                | None                                     |
+	| LCHI  | tschipplib                                   | 1.1.6                | tschipplib-1.12.2-1.1.7.jar                                  | None                                     |
+	| LCHI  | forgottenitems                               | 1.2.1                | forgottenitems-1.12.2-1.3.1.4.jar                            | None                                     |
+	| LCHI  | framevoidpatch                               | 1.0.0                | framevoidpatch-1.0.0.jar                                     | None                                     |
+	| LCHI  | friendlyendermite                            | 1.0                  | FriendlyEndermite_v1.0.1_mc1.12.2.jar                        | None                                     |
+	| LCHI  | futuremc                                     | 0.2.6                | future-mc-0.2.15.jar                                         | None                                     |
+	| LCHI  | fxcontrol                                    | 0.1.14               | fxcontrol-1.12-0.1.15.jar                                    | None                                     |
+	| LCHI  | geckolib3                                    | 3.0.30               | geckolib-forge-1.12.2-3.0.31.jar                             | None                                     |
+	| LCHI  | globalgamerules                              | 2.2                  | GlobalGameRules-1.12.2-2.2.7.jar                             | None                                     |
+	| LCHI  | ichunutil                                    | 7.2.2                | iChunUtil-1.12.2-7.2.2.jar                                   | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHI  | googlyeyes                                   | 7.1.1                | GooglyEyes-1.12.2-7.1.1.jar                                  | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LCHI  | grapplemod                                   | 1.12.2-v12.3         | grapplemod-1.12.2-v12.3.jar                                  | None                                     |
+	| LCHI  | gravestone                                   | 1.10.3               | gravestone-1.10.3.jar                                        | None                                     |
+	| LCHI  | grounditemhighlighting                       | 1.12.2.004           | GroundItemHighlighting-1.12.2.004.jar                        | None                                     |
+	| LCHI  | healthbar                                    | 1.0.7                | HealthBar-1.12-1.0.7-23.jar                                  | None                                     |
+	| LCHI  | helpfixer                                    | 1.12.1-1.5.18        | HelpFixer-1.12.1-1.5.18.jar                                  | None                                     |
+	| LCHI  | ido                                          | 1.0.6                | ido-1.12.2-1.1.0.jar                                         | None                                     |
+	| LCHI  | incontrol                                    | 3.9.18               | incontrol-1.12-3.9.18.jar                                    | None                                     |
+	| LCHI  | infernalmobs                                 | 1.7.6                | InfernalMobs-1.12.2.jar                                      | None                                     |
+	| LCHI  | instrumentalmobs                             | 1.2                  | Instrumental-Mobs-1.2.1.jar                                  | None                                     |
+	| LCHI  | inventorypets                                | 2.0.15               | inventorypets-1.12-2.0.15.jar                                | None                                     |
+	| LCHI  | inventorytotem                               | 1.3                  | inventorytotem_1.12.2-1.3.jar                                | None                                     |
+	| LCHI  | inventorytweaks                              | 1.64+dev.151.822d839 | InventoryTweaks-1.64+dev.151.jar                             | 55d2cd4f5f0961410bf7b91ef6c6bf00a766dcbe |
+	| LCHI  | ironbackpacks                                | 1.12.2-3.0.7-10      | IronBackpacks-1.12.2-3.0.7-10.jar                            | None                                     |
+	| LCHI  | iseedragons                                  | 1.2.1                | ISeeDragons-1.2.1.jar                                        | None                                     |
+	| LCHI  | itlt                                         | 1.0.4                | itlt-1.12.x-1.0.4.jar                                        | None                                     |
+	| LCHI  | journeymap                                   | 1.12.2-5.7.1p1       | journeymap-1.12.2-5.7.1p1.jar                                | None                                     |
+	| LCHI  | loottweaker                                  | 0.3.1                | LootTweaker-0.3.1+MC1.12.2.jar                               | None                                     |
+	| LCHI  | jeresources                                  | 0.9.2.60             | JustEnoughResources-1.12.2-0.9.2.60.jar                      | None                                     |
+	| LCHI  | keywizard                                    | 1.12.2-1.7.3         | keywizard-1.12.2-1.7.3.jar                                   | None                                     |
+	| LCHI  | legendarytooltips                            | 1.1.9                | LegendaryTooltips-1.12.2-1.1.9.jar                           | None                                     |
+	| LCHI  | loadingscreens                               | 0.3.1                | LoadingScreens-1.12.2-0.3.1.jar                              | None                                     |
+	| LCHI  | locks                                        | 3.0.0                | Locks-1.12.2-3.0.0.jar                                       | None                                     |
+	| LCHI  | lootbags                                     | 2.5.8.5              | LootBags-1.12.2-2.5.8.5.jar                                  | None                                     |
+	| LCHI  | lycanitesmobs                                | 2.0.8.9 - MC 1.12.2  | lycanitesmobs-1.12.2-2.0.8.9.jar                             | None                                     |
+	| LCHI  | magicfeather                                 | @VERSION@            | magicfeather-1.12.2-2.2.0.jar                                | None                                     |
+	| LCHI  | reborncore                                   | 3.19.5               | RebornCore-1.12.2-3.19.5-universal.jar                       | None                                     |
+	| LCHI  | mainmenuscale                                | 1.0                  | MainMenuScale-1.3.2.jar                                      | None                                     |
+	| LCHI  | materialtweaker                              | 1.1.1                | MaterialTweaker-1.1.1.jar                                    | None                                     |
+	| LCHI  | mcdj                                         | 2.1                  | MCDJ-1.12.2-2.1.jar                                          | None                                     |
+	| LCHI  | mcgltf                                       | 1.12.2-Forge-2.0.3.0 | MCglTF-1.12.2-Forge-2.0.3.0.jar                              | None                                     |
+	| LCHI  | mcwbridges                                   | 1.0.6                | mcw-bridges-1.0.6b-mc1.12.2.jar                              | None                                     |
+	| LCHI  | testdummy                                    | 1.12                 | MmmMmmMmmMmm-1.12-1.14.jar                                   | None                                     |
+	| LCHI  | mobends                                      | 1.2.1                | MoBends_1.12.2-1.2.1-19.12.21.jar                            | None                                     |
+	| LCHI  | movingworld                                  | 1.12-6.353           | movingworld-1.12-6.353-full.jar                              | None                                     |
+	| LCHI  | multimine                                    | 1.6.2                | MultiMine-1.12.2.jar                                         | None                                     |
+	| LCHI  | naturalabsorption                            | 1.0.0_for_mc1.12.2   | naturalabsorption-1.0.0_for_mc1.12.2.jar                     | None                                     |
+	| LCHI  | naturescompass                               | 1.8.5                | NaturesCompass-1.12.2-1.8.5.jar                              | None                                     |
+	| LCHI  | neat                                         | 1.4-17               | Neat 1.4-17.jar                                              | None                                     |
+	| LCHI  | notreepunching                               | 2.0.21               | notreepunching-2.0.21.jar                                    | None                                     |
+	| LCHI  | nutrition                                    | 4.9.0                | Nutrition-1.12.2-4.9.0.jar                                   | None                                     |
+	| LCHI  | oe                                           | 1.0.7                | OceanicExpanse-1.0.7.jar                                     | None                                     |
+	| LCHI  | openmods                                     | 0.12.2               | OpenModsLib-1.12.2-0.12.2.jar                                | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LCHI  | openblocks                                   | 1.8.1                | OpenBlocks-1.12.2-1.8.1.jar                                  | d2a9a8e8440196e26a268d1f3ddc01b2e9c572a5 |
+	| LCHI  | particleculling                              | v1.4.1               | particleculling-1.12.2-v1.4.1.jar                            | None                                     |
+	| LCHI  | pigstep                                      | 1.12                 | pigstep-1.12.jar                                             | None                                     |
+	| LCHI  | placebo                                      | 1.6.0                | Placebo-1.12.2-1.6.0.jar                                     | None                                     |
+	| LCHI  | playerbosses                                 | 1.0                  | playerbosses-1.12.2-1.1.0.jar                                | 1bc8f8dbe770187a854cef35dad0ff40ba441bbe |
+	| LCHI  | portaldupebegone                             | 1.0.0                | PortalDupeBegone-1.0.0.jar                                   | None                                     |
+	| LCHI  | potionfingers                                | r1.0-8               | PotionFingers-r1.0-8.jar                                     | None                                     |
+	| LCHI  | realistictorches                             | 2.1.2                | RealisticTorches-1.12.2-2.1.2.jar                            | None                                     |
+	| LCHI  | reskillable                                  | 1.12.2-1.13.0        | Reskillable-1.12.2-1.13.0.jar                                | None                                     |
+	| LCHI  | resourceloader                               | 1.5.3                | ResourceLoader-MC1.12.1-1.5.3.jar                            | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+	| LCHI  | artifacts                                    | 1.1.2                | RLArtifacts-1.1.2.jar                                        | None                                     |
+	| LCHI  | rlmixins                                     | 1.2.14               | RLMixins-1.2.15.jar                                          | None                                     |
+	| LCHI  | rltweaker                                    | 0.5.12               | RLTweaker-1.12.2-0.5.12.jar                                  | None                                     |
+	| LCHI  | roguelike                                    | 2.4.4                | RoguelikeDungeonsFnarEdition-1.12.2-2.4.4.jar                | None                                     |
+	| LCHI  | roughtweaks                                  | 1.0                  | roughTweaks0.2.4-1.12.2.jar                                  | None                                     |
+	| LCHI  | ruins                                        | 17.2                 | Ruins-1.12.2.jar                                             | None                                     |
+	| LCHI  | rustic                                       | 1.1.7                | rustic-1.1.7.jar                                             | None                                     |
+	| LCHI  | silentlib                                    | 3.0.13               | SilentLib-1.12.2-3.0.14+168.jar                              | None                                     |
+	| LCHI  | scalinghealth                                | 1.3.37               | ScalingHealth-1.12.2-1.3.42+147.jar                          | None                                     |
+	| LCHI  | setbonus                                     | 1.12.2.020           | SetBonus-1.12.2.020.jar                                      | None                                     |
+	| LCHI  | shieldbreak                                  | 1.1.3                | ShieldBreak-1.1.3.jar                                        | None                                     |
+	| LCHI  | simpledifficulty                             | 0.3.9                | SimpleDifficulty-1.12.2-0.3.9.jar                            | None                                     |
+	| LCHI  | sit                                          | v1.3                 | sit-1.12.2-v1.3.jar                                          | None                                     |
+	| LCHI  | snowrealmagic                                | 0.7.1                | SnowRealMagic-1.12.2-0.7.1.jar                               | None                                     |
+	| LCHI  | soundfilters                                 | 0.12.1_for_1.12      | SoundFilters-0.12.1_for_1.12.jar                             | None                                     |
+	| LCHI  | spark                                        | 1.6.3                | spark-forge.jar                                              | None                                     |
+	| LCHI  | xat                                          | 0.32                 | Trinkets and Baubles-32.4.jar                                | None                                     |
+	| LCHI  | spartanweaponry                              | 1.5.3                | SpartanWeaponry-1.12.2-1.5.3.jar                             | None                                     |
+	| LCHI  | spartanfire                                  | 1.1.0                | spartanfire_rlcraft-1.1.0.jar                                | None                                     |
+	| LCHI  | spartanhudbaubles                            | 1.0.0 Indev 1        | SpartanHUDBaubles-1.12.2-1.0.0.jar                           | None                                     |
+	| LCHI  | spartanshields                               | 1.5.5                | SpartanShields-1.12.2-1.5.5.jar                              | None                                     |
+	| LCHI  | spawnercontrol                               | 1.6.3b               | SpawnerControl-1.6.3b.jar                                    | None                                     |
+	| LCHI  | srparasites                                  | 1.9.11               | SRParasites-1.12.2v1.9.11.jar                                | None                                     |
+	| LCHI  | bq_standard                                  | 3.4.173              | StandardExpansion-3.4.173.jar                                | None                                     |
+	| LCHI  | strawgolem                                   | 1.3                  | strawgolem-1.4.1.jar                                         | None                                     |
+	| LCHI  | surge                                        | 2.0.79               | Surge-1.12.2-2.0.79.jar                                      | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCHI  | switchbow                                    | 1.6.8                | switchbow-1.6.8.jar                                          | None                                     |
+	| LCHI  | arm                                          | 1.0.0                | TacCraft_0.9_1.12.2.jar                                      | None                                     |
+	| LCHI  | gircredstone                                 | ${version}           | TC-Redstone-1.12.2-3.2.1.jar                                 | None                                     |
+	| LCHI  | techguns                                     | 2.0.2.0              | techguns-1.12.2-2.0.2.0_pre3.2.jar                           | None                                     |
+	| LCHI  | beneath                                      | 1.7.1                | The Beneath-1.12.2-1.7.1.jar                                 | 220f10d3a93b3ff5fbaa7434cc629d863d6751b9 |
+	| LCHI  | db                                           | 0.0.1                | The Depths of Madness - 0.1.jar                              | None                                     |
+	| LCHI  | tnt_utilities                                | 1.2.3                | tnt_utilities-mc1.12-1.2.3.jar                               | None                                     |
+	| LCHI  | toastcontrol                                 | 1.8.1                | Toast Control-1.12.2-1.8.1.jar                               | None                                     |
+	| LCHI  | toolbelt                                     | 1.9.14               | ToolBelt-1.12.2-1.9.14.jar                                   | None                                     |
+	| LCHI  | torchmaster                                  | 1.8.4.84             | torchmaster_1.12.2-1.8.4.84.jar                              | 5e9a436b366831c8f54a7e80b015784da69278c6 |
+	| LCHI  | trumpetskeleton                              | 1.12-1.0.2.1         | trumpetskeleton-1.12-1.0.2.1.jar                             | None                                     |
+	| LCHI  | tumbleweed                                   | 1.12-0.4.7           | tumbleweed-1.12-0.4.7.jar                                    | None                                     |
+	| LCHI  | uteamcore                                    | 2.2.5.255            | u_team_core-1.12.2-2.2.5.255.jar                             | None                                     |
+	| LCHI  | usefulbackpacks                              | 1.5.4.85             | useful_backpacks-1.12.2-1.5.4.85.jar                         | None                                     |
+	| LCHI  | variedcommodities                            | 1.12.2               | VariedCommodities_1.12.2-(31Mar23).jar                       | None                                     |
+	| LCHI  | waitingtime                                  | 1.0.1                | WaitingTime-1.0.1.jar                                        | None                                     |
+	| LCHI  | waystones                                    | 4.1.0                | Waystones_1.12.2-4.1.0.jar                                   | None                                     |
+	| LCHI  | wolfarmor                                    | 3.8.1+alpha.1        | WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed.jar | e94e38a605842477f3ec218e6fcf781f6b3f7f89 |
+	| LCHI  | xpfromharvest                                | 1.2.0                | XPFromHarvest-1.12.2-1.2.0.jar                               | None                                     |
+	| LCHI  | xpbook                                       | v2.0.1               | xptome-1.12.2-v2.0.1.jar                                     | None                                     |
+	| LCHI  | flintfromgravel                              | 1.0.0                | zaynens_flint_from_gravel_mod_1.12.2.jar                     | None                                     |
+	| LCHI  | dshuds                                       | 3.6.0.0              | DynamicSurroundingsHuds-1.12.2-3.6.0.0.jar                   | 7a2128d395ad96ceb9d9030fbd41d035b435753a |
+	| LCHI  | kiwi                                         | 0.5.3.32             | Kiwi-1.12.2-0.5.3.32.jar                                     | None                                     |
+	| LCHI  | rtg                                          | 6.1.0.0-snapshot.1   | RTG-1.12.2-6.1.0.0-snapshot.1.jar                            | None                                     |
+	| LCHI  | solcarrot                                    | 1.8.4                | solcarrot-1.12.2-1.8.4.jar                                   | None                                     |
+	| LCHI  | midnight                                     | 0.3.5                | themidnight-0.3.5.jar                                        | None                                     |
+
+	Loaded coremods (and transformers): 
+FutureMC (future-mc-0.2.15.jar)
+  thedarkcolour.futuremc.asm.CoreTransformer
+RLTweaker ASM (RLTweaker-1.12.2-0.5.12.jar)
+  com.charles445.rltweaker.asm.RLTweakerASM
+WolfArmorCore (WolfArmorAndStorage-3.8.1+1.12.2.alpha.1-SNAPSHOT-signed.jar)
+  
+MovingWorldCore (movingworld-1.12-6.353-full.jar)
+  
+ItemPatchingLoader (ItemPhysic_Full_1.4.37_mc1.12.2.jar)
+  com.creativemd.itemphysic.ItemTransformer
+MixinLoader (Locks-1.12.2-3.0.0.jar)
+  
+FluidDrawersCoreMod (fluiddrawers-1.12.2-1.0.7.jar)
+  xyz.phanta.fluiddrawers.coremod.FluidDrawersClassTransformer
+BewitchmentFMLLoadingPlugin (bewitchment-1.12.2-0.0.22.64.jar)
+  
+CXLibraryCore (cxlibrary-1.12.1-1.6.1.jar)
+  cubex2.cxlibrary.CoreModTransformer
+AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+RLMixinsPlugin (RLMixins-1.2.15.jar)
+  
+LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+  lumien.bloodmoon.asm.ClassTransformer
+JustEnoughIDs Extension Plugin (RoughlyEnoughIDs-2.0.8.jar)
+  org.dimdev.jeid.JEIDTransformer
+SpartanWeaponry-MixinLoader (SpartanWeaponry-1.12.2-1.5.3.jar)
+  
+Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+  techguns.core.TechgunsASMTransformer
+LoadingPlugin (Reskillable-1.12.2-1.13.0.jar)
+  codersafterdark.reskillable.base.asm.ClassTransformer
+Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.15-1.12.2.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+ReachFixPlugin (ReachFix-1.12.2-1.0.8.jar)
+  meldexun.reachfix.asm.ReachFixClassTransformer
+SoManyEnchantments ASM (SoManyEnchantments-0.5.5.jar)
+  com.Shultrea.Rin.Transformer.SMEASM
+ForgelinPlugin (Forgelin-1.8.4.jar)
+  
+RenderLibPlugin (RenderLib-1.12.2-1.2.8.jar)
+  meldexun.renderlib.asm.RenderLibClassTransformer
+SurgeLoadingPlugin (Surge-1.12.2-2.0.79.jar)
+  
+llibrary (llibrary-core-1.0.11-1.12.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+FMLPlugin (configurablebeacons-1.12-1.0.0.jar)
+  be.ephys.configurablebeacons.asm.ASMTransformer
+CorePlugin (ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar)
+  
+BetterFoliageLoader (BetterFoliage-MC1.12-2.3.3.jar)
+  mods.betterfoliage.loader.BetterFoliageTransformer
+MixinLoader (framevoidpatch-1.0.0.jar)
+  
+MixinLoader (BedBreakBegone-1.0.2.jar)
+  
+SimpleDifficulty ASM (SimpleDifficulty-1.12.2-0.3.9.jar)
+  com.charles445.simpledifficulty.asm.SimpleDifficultyASM
+ParticleCullingLoadingPlugin (particleculling-1.12.2-v1.4.1.jar)
+  
+LoadingPlugin (ChunkAnimator-1.12.2-1.2.1.jar)
+  lumien.chunkanimator.asm.ClassTransformer
+BlockOverlayFixPlugin (BlockOverlayFix-1.12.2-1.0.0.jar)
+  
+TransformLoader (DynamicSurroundings-1.12.2-3.6.2.1.jar)
+  
+Quark Plugin (Quark-r1.6-179.jar)
+  vazkii.quark.base.asm.ClassTransformer
+AssetMover (assetmover-2.5.jar)
+  
+EntityCullingPlugin (EntityCulling-1.12.2-6.3.1.jar)
+  meldexun.entityculling.asm.EntityCullingClassTransformer
+MMFMLCorePlugin (MultiMine-1.12.2.jar)
+  atomicstryker.multimine.common.fmlmagic.MMTransformer
+LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+  lumien.resourceloader.asm.ClassTransformer
+ColytraLoadingPlugin (colytra-1.12.2-1.2.0.3.jar)
+  c4.colytra.asm.ElytraTransformer
+IvToolkit (IvToolkit-1.3.3-1.12.jar)
+  
+FMCore (fancymenu_forge_2.14.6_MC_1.12-1.12.2.jar)
+  
+Inventory Tweaks Coremod (InventoryTweaks-1.64+dev.151.jar)
+  invtweaks.forge.asm.ContainerTransformer
+RBLoadingPlugin (RealBench-1.12.2-1.3.3.jar)
+  pw.prok.realbench.asm.RBTransformer
+SSLoadingPlugin (SereneSeasons-1.12.2-1.2.18-universal.jar)
+  sereneseasons.asm.transformer.EntityRendererTransformer
+  sereneseasons.asm.transformer.WorldTransformer
+KonkreteCore (konkrete_forge_1.6.1_MC_1.12-1.12.2.jar)
+  
+midnight (themidnight-0.3.5.jar)
+  com.mushroom.midnight.core.transformer.MidnightClassTransformer
+CreativePatchingLoader (CreativeCore_v1.10.70_mc1.12.2.jar)
+  
+OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+  openmods.core.OpenModsClassTransformer
+MaterialTweakerPlugin (MaterialTweaker-1.1.1.jar)
+  
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+Snow! Real Magic! (SnowRealMagic-1.12.2-0.7.1.jar)
+  
+Born in a Barn (Born In A Barn V1.8-1.12-1.1.jar)
+  com.chocohead.biab.BornInABarn
+CharmLoadingPlugin (Charm-1.12.2-1.4.1.jar)
+  svenhjol.charm.base.CharmClassTransformer
+WTPlugin (WaitingTime-1.0.1.jar)
+  com.blamejared.waitingtime.core.WTClassTransformer
+Fluidlogged API Plugin (Fluidlogged-API-v2.2.7-mc1.12.2.jar)
+  git.jbredwards.fluidlogged_api.mod.asm.ASMHandler$Transformer
+  git.jbredwards.fluidlogged_api.mod.asm.transformers.TransformerLevelProperty
+  git.jbredwards.fluidlogged_api.mod.asm.transformers.TransformerSmoothWater
+MixinBooter (!mixinbooter-8.8.jar)
+  
+TNTUtilities Core (tnt_utilities-mc1.12-1.2.3.jar)
+  ljfa.tntutils.asm.ExplosionTransformer
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.0 Compatibility Profile Context 22.40.52.04.230523' Renderer: 'Radeon(TM) RX 550'
+	OpenModsLib class transformers: [llama_null_fix:FINISHED],[horse_base_null_fix:FINISHED],[pre_world_render_hook:FINISHED],[player_render_hook:FINISHED],[horse_null_fix:FINISHED]
+	AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+	Pulsar/inspirations loaded Pulses: 
+		- InspirationsShared (Enabled/Forced)
+		- InspirationsBuilding (Enabled/Not Forced)
+		- InspirationsUtility (Enabled/Not Forced)
+		- InspirationsTools (Enabled/Not Forced)
+		- InspirationsRecipes (Enabled/Not Forced)
+		- InspirationsTweaks (Enabled/Not Forced)
+		- InspirationsShared (Enabled/Forced)
+
+	No Tree Punching: You are not running an official build. This version will NOT be supported by the author.
+	Patchouli open book context: n/a
+	RebornCore: 
+		Plugin Engine: 0
+		RebornCore Version: 3.19.5
+		Runtime Debofucsation 1
+		Invalid fingerprint detected for RebornCore!
+		RenderEngine: 1
+	RLTweaker Error Report: 
+ 
+	AE2 Integration: IC2:OFF, RC:OFF, MFR:OFF, Waila:OFF, InvTweaks:ON, JEI:ON, Mekanism:OFF, OpenComputers:OFF, THE_ONE_PROBE:OFF, TESLA:OFF, CRAFTTWEAKER:ON
+	OptiFine Version: OptiFine_1.12.2_HD_U_G5
+	OptiFine Build: 20210124-142939
+	Render Distance Chunks: 9
+	Mipmaps: 1
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: (internal)
+	OpenGlVersion: 4.6.0 Compatibility Profile Context 22.40.52.04.230523
+	OpenGlRenderer: Radeon(TM) RX 550
+	OpenGlVendor: ATI Technologies Inc.
+	CpuCount: 16
